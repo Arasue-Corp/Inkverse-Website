@@ -1661,8 +1661,8 @@ section,
 }
 
 .pricing .pricing-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../img/pricing-bg.jpg") center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("../img/portfolio/cat-ds-1.png") center center;
+  background-size:cover;
   text-align: center;
   padding: 40px;
   margin: -60px -40px 0;
@@ -1749,7 +1749,7 @@ section,
 }
 
 .pricing .featured .pricing-header {
-  background: linear-gradient(color-mix(in srgb, var(--accent-color), transparent 10%), color-mix(in srgb, var(--accent-color), transparent 20%)), url("../img/pricing-bg.jpg") center center;
+  background: linear-gradient(color-mix(in srgb, var(--accent-color), transparent 50%), color-mix(in srgb, var(--accent-color), transparent 20%)), url("../img/portfolio/cat-ds-2.png") center center;
 }
 
 .pricing .featured .buy-btn {
