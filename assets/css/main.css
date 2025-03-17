@@ -2206,6 +2206,32 @@ section,
   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
 }
 
+.centered-content {
+  display: flex;
+  justify-content: space-between; /* Separa la tabla de contenido y la imagen */
+  align-items: center; /* Centra verticalmente ambos elementos */
+  text-align: left; /* Asegura que el texto quede alineado a la izquierda */
+  gap: 30px; /* Espacio entre la tabla de contenido y la imagen */
+}
+
+.centered-content .info {
+  max-width: 400px; /* Ajusta el ancho */
+  flex: 1; /* Permite que ocupe el espacio necesario */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Asegura que el contenido dentro de la tabla se mantenga a la izquierda */
+  justify-content: center; /* Centra verticalmente el contenido dentro de su columna */
+}
+
+.centered-content img {
+  max-width: 50%; /* Controla el tamaño de la imagen */
+  height: auto;
+  flex-shrink: 0; /* Evita que la imagen se reduzca demasiado */
+  display: flex;
+  align-self: center; /* Asegura que la imagen esté centrada verticalmente */
+}
+
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
