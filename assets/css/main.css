@@ -986,13 +986,14 @@ section,
     font-size: 13px;
   }
 
+  .flyer{
+    display: none;
+  }
+
   #igcontact{
     display: none;
   }
 
-  .flyer{
-    display: none;
-  }
 
 }
 
